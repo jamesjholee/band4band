@@ -1,0 +1,22 @@
+{
+  "name": "@band4band/scripts",
+  "version": "0.1.0",
+  "description": "Band 4 Band development scripts",
+  "scripts": {
+    "localnet": "tsx src/localnet.ts",
+    "demo": "tsx src/demo.ts",
+    "build": "tsc",
+    "dev": "tsx src/localnet.ts"
+  },
+  "dependencies": {
+    "@band4band/sdk": "workspace:*",
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.5.0"
+  }
+}

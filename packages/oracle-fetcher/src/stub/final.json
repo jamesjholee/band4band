@@ -1,0 +1,26 @@
+{
+  "league": "NFL",
+  "gameId": "2025-NE-NYJ-001",
+  "timestamp": 1736573405,
+  "score": {
+    "home": 23,
+    "away": 20,
+    "quarter": 4,
+    "clock": "00:00"
+  },
+  "final": true,
+  "players": [
+    {
+      "id": "qb-nyj-rodgers",
+      "passingYds": 254,
+      "passTD": 2
+    },
+    {
+      "id": "qb-ne-mayo",
+      "passingYds": 187,
+      "passTD": 1
+    }
+  ],
+  "source": ["provider_stub"],
+  "normalizerVersion": "v0.1.0"
+}

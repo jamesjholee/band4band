@@ -1,0 +1,25 @@
+{
+  "name": "band4band",
+  "version": "0.1.0",
+  "description": "Peer-to-peer sports prediction market on Solana",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "dev": "pnpm -C packages/web dev",
+    "deploy": "pnpm -C packages/program deploy",
+    "localnet": "pnpm -C packages/scripts localnet"
+  },
+  "keywords": ["solana", "web3", "sports", "betting", "prediction-market"],
+  "author": "Band4Band Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
