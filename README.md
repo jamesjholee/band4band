@@ -66,10 +66,12 @@ pnpm -C packages/web dev
 ## Weekly Progress
 
 ### Week 1 (Current)
-- [ ] Project setup and repository structure
-- [ ] Anchor program foundation
-- [ ] Basic SDK implementation
-- [ ] Initial web interface
+- [x] Project setup and repository structure
+- [x] Anchor program foundation
+- [x] Basic SDK implementation
+- [x] Initial web interface
+- [ ] Deploy program to devnet
+- [ ] Test wallet integration
 
 ### Week 2 (Planned)
 - [ ] Oracle integration

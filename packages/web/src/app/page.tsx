@@ -53,13 +53,48 @@ export default function Home() {
         {/* Markets Section */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold mb-6">Available Markets</h2>
+
+          {/* Sample Market */}
+          <div className="bg-gray-800 rounded-xl p-6 mb-4">
+            <div className="flex justify-between items-center">
+              <div>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  New England Patriots vs New York Jets
+                </h3>
+                <div className="flex gap-4 text-sm text-gray-400">
+                  <span>NFL • Jan 15, 2025</span>
+                  <span>Total Pool: 4.3 SOL</span>
+                  <span className="text-green-400">Live Demo</span>
+                </div>
+              </div>
+              <div className="text-right">
+                <div className="text-sm text-gray-400 mb-2">Odds</div>
+                <div className="text-primary-400 font-bold">1.74x / 2.39x</div>
+              </div>
+            </div>
+
+            <div className="mt-4 pt-4 border-t border-gray-700">
+              <div className="flex justify-between items-center">
+                <div className="text-gray-300">
+                  Experience the full betting interface with wallet integration
+                </div>
+                <a
+                  href="/market"
+                  className="bg-primary-600 hover:bg-primary-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+                >
+                  View Market
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Coming Soon */}
           <div className="bg-gray-800 rounded-xl p-6">
-            <div className="text-center text-gray-400 py-12">
-              <div className="text-6xl mb-4">🏈</div>
-              <h3 className="text-xl font-semibold mb-2">Coming Soon</h3>
+            <div className="text-center text-gray-400 py-8">
+              <div className="text-4xl mb-3">⚡</div>
+              <h3 className="text-lg font-semibold mb-2">More Markets Coming Soon</h3>
               <p className="max-w-md mx-auto">
-                NFL prediction markets will be available once the program is deployed.
-                Connect your wallet and check back soon!
+                Additional NFL games and other sports will be added after program deployment to devnet.
               </p>
             </div>
           </div>
